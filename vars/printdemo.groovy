@@ -8,8 +8,8 @@ def call(Map config) {
 
 }
 
-def initialize(obj){
-    this.steps=obj
-    println(steps.env.folderName)
-}
+//def initialize(obj){
+//    this.steps=obj
+//    println(steps.env.folderName)
+//}
 
