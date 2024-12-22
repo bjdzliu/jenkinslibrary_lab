@@ -4,6 +4,12 @@ def call(Map config) {
     echo "Hello, ${config.name}! Welcome to Jenkins Pipeline."
     echo "Job URL: ${config.url}"
     echo "Build Number: ${config.buildNumber}"
-    echo "${steps}"
+    initialize(this)
+
+}
+
+def initialize(obj){
+    steps=obj
+    echo "steps.env: ${steps.env}"
 }
 
