@@ -10,6 +10,6 @@ def call(Map config) {
 
 def initialize(obj){
     steps=obj
-    echo "steps.env: ${steps.env}"
+    println(steps.env.folderName)
 }
 
