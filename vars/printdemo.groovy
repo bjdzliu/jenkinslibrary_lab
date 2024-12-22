@@ -9,7 +9,7 @@ def call(Map config) {
 }
 
 def initialize(obj){
-    steps=obj
+    this.steps=obj
     println(steps.env.folderName)
 }
 
